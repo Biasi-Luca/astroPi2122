@@ -22,13 +22,11 @@ def add_csv_data(data_file, data):
         row = (data, location.latitude.signed_dma, location.longitude.signed_dms, location.elevation.km)
         writer.writerow(data)
 
-'''
+
 if __name__ == '__main__':
-'''
+    # nel main vanno dichiarate questi valori
 
-# nel main vanno dichiarate questi valori
-
-base_folder = Path(__file__).parent.resolve()
-data_file = base_folder/'data.csv'
-create_csv(data_file)
+    base_folder = Path(__file__).parent.resolve()
+    data_file = base_folder/'data.csv'
+    create_csv(data_file)
 
