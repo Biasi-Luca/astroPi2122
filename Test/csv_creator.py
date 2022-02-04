@@ -1,14 +1,13 @@
 import csv
 from orbit import ISS
-
 from pathlib import Path
 from time import sleep
+
 from datetime import datetime, timedelta
 
 
 # Compute the coordinates of the Earth location directly beneath the ISS
 location = ISS.coordinates() 
-print(location)
 
 # Define the function that create the CSV and write the firts row
 def create_csv(data_file):
@@ -21,6 +20,7 @@ def create_csv(data_file):
 def add_csv_data(data_file, data):
     with open(data_file, 'a') as f:
         writer = csv.writer(f)
+        row = (data, location.latitude.signed_dma, location.longitude.signed_dms, location.elevation.km)
         writer.writerow(data)
 
 
@@ -33,5 +33,5 @@ if __name__ == '__main__':
 
     create_csv(data_file)
 
-
+create_csv(data_file)
 
