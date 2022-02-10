@@ -107,7 +107,6 @@ def calc_ndvi(image):
     bottom = (r.astype(float) + b.astype(float))
     bottom[bottom == 0] = 0.01
     ndvi = (b.astype(float) - r) / bottom
-    print(ndvi)
     return ndvi
 
 
@@ -196,7 +195,7 @@ def ndviConversion(image):
     cv2.imwrite(image_color_map, color_mapped_image)
 
     print("fatto.\n\n")
-
+    
 
 if __name__ == '__main__':
     
@@ -207,6 +206,6 @@ if __name__ == '__main__':
     print(image_original)
     print(image_name)
     name_clean = image_clean(image_original)
-
+   
     ndviConversion(image_original)
     ndviConversion(name_clean)
