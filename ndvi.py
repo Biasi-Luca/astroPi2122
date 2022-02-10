@@ -107,6 +107,7 @@ def calc_ndvi(image):
     bottom = (r.astype(float) + b.astype(float))
     bottom[bottom == 0] = 0.01
     ndvi = (b.astype(float) - r) / bottom
+    print(ndvi)
     return ndvi
 
 
