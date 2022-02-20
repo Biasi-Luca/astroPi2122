@@ -29,6 +29,7 @@ The functions used by main in the main.py file have been implemented in utils.
 
 [Diagramma di flusso 2.pdf](https://github.com/Biasi-Luca/astroPi2122/files/8104591/Diagramma.di.flusso.2.pdf)
 
+![Diagramma di flusso](https://user-images.githubusercontent.com/74982114/154856678-1769d868-8525-4828-91db-a0860660bd0a.jpg)
 
 
 ## *Built with*
