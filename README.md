@@ -27,7 +27,7 @@ The functions used by main in the main.py file have been implemented in utils.
 - “**add_csv_data**” is the function that uses capture to add the data of the image acquired into the csv, it is based on the csv library.
 
 
-## *Main structure*
+## *main.py structure*
 
 ![Diagramma di flusso](https://user-images.githubusercontent.com/74982114/154856678-1769d868-8525-4828-91db-a0860660bd0a.jpg)
 
