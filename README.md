@@ -22,7 +22,7 @@ The functions used by main in the main.py file have been implemented in utils.
 
 ## *utils.py*
 - “**dayNight**”allows you to distinguish day and night, is based on the orbit and skyfield.api library.
-- “**capture**”allows the acquisition of the image, saving it in jpg format with the name consisting of the date and time of the acquisition. It includes the addition of data regarding the acquired image to the csv file which collects all the data of the shots, is based on the picamera and time library.
+- “**capture**”allows the acquisition of the image, saving it in jpg format with the name consisting of the time and date of the acquisition. It includes the addition of data regarding the acquired image to the csv file which collects all the data of the shots, is based on the picamera and time library.
 - “**create_csv**”  is the function that creates the csv file and structures the columns, it is based on the csv and path library.
 - “**add_csv_data**” is the function that uses capture to add the data of the image acquired into the csv, it is based on the csv library.
 
