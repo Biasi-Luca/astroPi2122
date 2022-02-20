@@ -27,6 +27,7 @@ The functions used by main in the main.py file have been implemented in utils.
 - “**add_csv_data**” is the function that uses capture to add the data of the image acquired into the csv, it is based on the csv library.
 
 
+[Diagramma di flusso 2.pdf](https://github.com/Biasi-Luca/astroPi2122/files/8104591/Diagramma.di.flusso.2.pdf)
 
 
 
